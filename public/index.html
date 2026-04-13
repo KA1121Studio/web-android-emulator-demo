@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Android Emulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="phone">
+    <div class="status-bar">Web Android</div>
+
+    <!-- Android画面表示エリア -->
+    <div id="screen">
+      <iframe 
+        src="http://localhost:6080" 
+        frameborder="0"
+        id="emulatorFrame">
+      </iframe>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
